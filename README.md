@@ -1,6 +1,4 @@
 # aula-arduino-uno-fundamentos
-A aula tem como objetivo ensinar iniciantes a controlar um LED com Arduino. Os alunos aprenderão a montar um circuito simples e escrever um código básico em C++ para acender e apagar o LED. A atividade introduz conceitos de eletrônica, programação e interação com hardware, preparando para projetos mais avançados.
-
 A aula tem como objetivo introduzir os conceitos básicos do Arduino e da programação em C++ para iniciantes. O foco principal é ensinar como controlar um LED utilizando a plataforma Arduino, fornecendo uma base sólida para futuros projetos mais complexos. Durante a aula, os alunos aprenderão sobre os componentes essenciais de um circuito eletrônico simples e como interagir com o hardware através de programação.
 
 A atividade começa com a montagem de um circuito básico utilizando uma placa Arduino (como o Arduino Uno), um LED, um resistor e fios de conexão. O LED será conectado ao pino digital 13 da placa, que será controlado por um código simples no Arduino IDE.
