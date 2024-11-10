@@ -78,3 +78,34 @@ void loop() {
   delay(1000); // Espera 1 segundo
 }
 
+Explicação do código:
+
+A função setup() é executada uma vez, configurando o pino 13 como saída com o comando pinMode().
+A função loop() é executada repetidamente. Dentro dela, o comando digitalWrite(ledPin, HIGH) acende o LED e digitalWrite(ledPin, LOW) apaga o LED.
+O delay(1000) faz uma pausa de 1 segundo (1000 milissegundos) entre as ações de acender e apagar o LED.
+4. Teste e Verificação (10 minutos)
+Subir o código para o Arduino:
+Conectar o Arduino ao computador via cabo USB.
+No Arduino IDE, selecionar a placa e a porta corretas.
+Clicar em "Upload" para enviar o código para o Arduino.
+Verificar o funcionamento:
+O LED deve começar a piscar a cada 1 segundo.
+Se o LED não acender, revisar as conexões e o código.
+5. Conclusão e Discussão (10 minutos)
+Revisar o conteúdo aprendido:
+O que é um circuito simples com LED.
+Como acender e apagar um LED usando programação no Arduino.
+Possíveis variações:
+Trocar o pino do LED.
+Usar outros tipos de LEDs (como LEDs RGB).
+Fazer o LED piscar de forma diferente (com intervalos variados).
+6. Tarefas para casa (Opcional)
+Modificar o código para fazer o LED piscar mais rápido (reduzir o valor de delay).
+Criar um código onde o LED acende quando o botão é pressionado.
+Avaliação:
+Durante a aula, verificar se os alunos estão conseguindo montar o circuito e entender o código.
+Perguntar sobre o funcionamento do código e pedir para modificar pequenas partes, como o tempo de delay.
+
+
+
+
