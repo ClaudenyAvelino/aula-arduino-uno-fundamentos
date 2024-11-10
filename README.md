@@ -50,3 +50,31 @@ Nenhum. Ideal para quem está começando com o Arduino.
       +-----------+       |
                          LED
 
+Passos para montagem:
+Insira o LED na protoboard.
+Conecte o terminal positivo (ânodo) do LED ao pino digital 13 do Arduino.
+Conecte o terminal negativo (cátodo) do LED ao resistor.
+O outro terminal do resistor deve ser conectado ao pino GND do Arduino.
+3. Programação (20 minutos)
+Explicar o código:
+
+Vamos escrever um código simples que acende e apaga o LED no Arduino.
+
+// Definir o pino digital 13 como saída
+int ledPin = 13;
+
+void setup() {
+  // Inicializa o pino 13 como saída
+  pinMode(ledPin, OUTPUT);
+}
+
+void loop() {
+  // Acende o LED
+  digitalWrite(ledPin, HIGH);
+  delay(1000); // Espera 1 segundo
+
+  // Apaga o LED
+  digitalWrite(ledPin, LOW);
+  delay(1000); // Espera 1 segundo
+}
+
